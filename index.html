@@ -7,7 +7,7 @@
   * { box-sizing: border-box; }
     
     body {
-      background-color: green;
+      background-color: #aac3f0;
       font-family: Georgia, "Times New Roman", serif;
       margin: 0;
       padding: 20px;
@@ -15,11 +15,12 @@
     }
 
     header {
-      background-color: black;
+      background-color: #637dab;
+      border: 5px solid #0a0f3d;
       position: relative;
       color: white;
       padding: 30px;
-      margin-bottom: 30;
+      margin-bottom: 30px;
     }
 
     header h1 {
@@ -29,10 +30,14 @@
     }
 
     .badge {
-      background-color: yellow;
-      color: purple;
+      background-color: #4385f7;
+      border: 1px solid #0a0f3d;
+      color: white;
       border-radius: 15px;
       position: absolute;
+      float: right;
+      top: 40px;
+      right: 50px;
       width: fit-content;
       padding: 5px 15px;
       font-size: 0.8em;
@@ -40,15 +45,17 @@
     }
 
     #main-content {
+      border: 2.5px solid #0a0f3d;
       width: 65%;
       display: inline-block;
-      background-color: blue;
-      color: white;
-      padding: 20;
+      background-color: white;
+      color: #0a0f3d;
+      padding: 20px;
       vertical-align: top;
     }
 
     #main-content h2 {
+      border-bottom: 1px solid black;
       font-family: Arial, Helvetica, sans-serif;
       margin-top: 0;
     }
@@ -58,7 +65,8 @@
     }
 
     #sidebar {
-      background-color: black;
+      border: 2.5px solid #0a0f3d;
+      background-color: #5d90e8;
       display: inline-block;
       margin-left: 4%;
       width: 30%;
@@ -85,8 +93,9 @@
 
     footer {
       position: sticky;
+      border: 2.5px solid #0a0f3d;
       bottom: 0;
-      background-color: black;
+      background-color: #637dab;
       color: white;
       text-align: center;
       padding: 20px;
